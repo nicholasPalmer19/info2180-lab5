@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Database Lookup</title>
+    <link rel="stylesheet" type="text/css" href="world.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>World Database Lookup</h1>
+            <p class="subtitle">Search countries and cities information</p>
+        </header>
+        
+        <main>
+            <div id="controls">
+                <div class="control-group">
+                    <label for="country">Country:</label>
+                    <input type="search" id="country" name="country" placeholder="e.g., Jamaica, United States, Japan">
+                </div>
+                
+                <div class="button-group">
+                    <button id="lookup">Lookup Country</button>
+                    <button id="lookupCities">Lookup Cities</button>
+                </div>
+            </div>
+            
+            <div id="result">
+                <!-- Results will appear here -->
+            </div>
+        </main>
+    </div>
+    
+    <script src="world.js"></script>
+</body>
+</html>
